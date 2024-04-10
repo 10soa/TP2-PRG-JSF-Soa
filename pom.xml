@@ -23,7 +23,7 @@
         <dependency>
             <groupId>org.primefaces</groupId>
             <artifactId>primefaces</artifactId>
-            <version>13.0.0-RC2</version>
+            <version>13.0.7</version>
             <classifier>jakarta</classifier>
         </dependency>
     </dependencies>
@@ -42,7 +42,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-war-plugin</artifactId>
-                <version>3.3.2</version>
+                <version>${mavenWarVersion}</version>
             </plugin>
         </plugins>
     </build>
